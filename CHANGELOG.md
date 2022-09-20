@@ -22,10 +22,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
--  Fixes [#4393](https://github.com/microsoft/BotFramework-WebChat/issues/4393). Assigns correct ARIA roles to components in web chat when a conversation status is pending, by [@beyackle2](https://github.com/beyackle2), in PR [#4420](https://github.com/microsoft/BotFramework-WebChat/pull/4420)
+## [4.15.4] - 2022-09-15
 
 ### Fixed
 
+-  Fixes [#4393](https://github.com/microsoft/BotFramework-WebChat/issues/4393). Assigns correct ARIA roles to components in web chat when a conversation status is pending, by [@beyackle2](https://github.com/beyackle2), in PR [#4420](https://github.com/microsoft/BotFramework-WebChat/pull/4420)
 -  Fixes [#4403](https://github.com/microsoft/BotFramework-WebChat/issues/4403). Patched Unicode CLDR database which caused file upload in Polish to appear blank, by [@compulim](https://github.com/compulim), in PR [#4404](https://github.com/microsoft/BotFramework-WebChat/pull/4404)
 -  Fixes [#4412](https://github.com/microsoft/BotFramework-WebChat/issues/4412). Fixed inconsistent in `packages/support/cldr-data/package.json`, by [@compulim](https://github.com/compulim), in PR [#4411](https://github.com/microsoft/BotFramework-WebChat/pull/4411)
 
