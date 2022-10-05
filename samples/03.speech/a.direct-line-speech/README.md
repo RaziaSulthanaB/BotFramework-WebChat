@@ -168,7 +168,8 @@ Open the web page and investigate the network traffic. Confirm that Web Chat is 
         };
 
         const adapters = await window.WebChat.createDirectLineSpeechAdapters({
-          fetchCredentials
+           fetchCredentials: {   region: 'Region of Speech Service',
+          subscriptionKey: 'Key of Speech Service' }
         });
 
         window.WebChat.renderWebChat(
